@@ -1,0 +1,19 @@
+# Speech-to-Text Setup
+
+Simple Speech-to-Text using OpenAI Whisper
+
+## Quick Start
+
+```bash
+# Record and transcribe
+bash record_audio.sh
+
+# Or just transcribe existing file
+python3 stt.py recording.wav
+```
+
+## Files
+
+- `stt.py` - Main transcription script
+- `record_audio.sh` - Record audio and transcribe
+- `stt/README.md` - Documentation
